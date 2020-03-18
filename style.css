@@ -105,7 +105,7 @@ li {
     margin: 0 7px;
 }
 
-section {
+#first {
     background-image: linear-gradient(to top right, #fef8f0, #fff3ee, #fff1ee);
     border-bottom: 3px solid #33475b;
     padding: 40px 0;
@@ -131,4 +131,18 @@ p {
 
 .cta-btn p {
     font-size: small;
+}
+
+.small-container {
+    width: 30%;
+    height: 100px;
+    background-color: yellow;
+    float: left;
+}
+
+.box-large {
+    width: 70%;
+    height: 100px;
+    background-color: red;
+    float: left;
 }
