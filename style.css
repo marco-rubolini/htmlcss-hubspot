@@ -105,3 +105,31 @@ li {
     display: inline-block;
     margin: 0 7px;
 }
+
+section {
+    background-image: linear-gradient(to top right, #fef8f0, #fff3ee, #fff1ee);
+    border-bottom: 3px solid #33475b;
+    padding: 40px 0;
+}
+
+.content {
+    width: 40%;
+}
+
+h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+p {
+    margin: 10px 0;
+}
+
+.cta-btn a {
+    margin: 10px 0;
+    display: inline-block;
+}
+
+.cta-btn p {
+    font-size: small;
+}
