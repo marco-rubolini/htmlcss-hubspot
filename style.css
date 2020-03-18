@@ -3,3 +3,39 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+header {
+    height: 200px;
+}
+
+.header-top {
+    background-color: yellow;
+    height: 100px;
+}
+
+.header-bottom {
+    background-color: blue;
+    height: 100px;
+}
+
+#header-top-left {
+    width: 50%;
+    float: left;
+}
+
+#header-top-right {
+    width: 50%;
+    float: left;
+}
+
+.container {
+    width: 1080px;
+    margin: auto;
+    background-color: black;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
