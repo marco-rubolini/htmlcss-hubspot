@@ -67,6 +67,12 @@ header {
     text-decoration: none;
 }
 
+.cta-large {
+    min-width: 7.277rem;
+    padding: 1.411em 2em 1.211em;
+    display: inline-block;
+}
+
 a {
     text-decoration: none;
     color: #33475b;
@@ -89,4 +95,53 @@ a {
 #main-menu li {
     display: inline-block;
     padding: 0 10px;
+}
+
+.wrapper {
+    width: 100%;
+    background-image: linear-gradient(to top right, #fef8f0, #fff3ee, #fff1ee);
+    border-bottom: 3px solid #33475b;
+}
+
+.content-wrapper {
+    width: 400px;
+}
+
+.home-container {
+    width: 30%;
+    height: 200px;
+    background-color: yellow;
+    float: left;
+}
+
+.block-hr {
+    width: 70%;
+    height: 200px;
+    background-color: red;
+    float: left;
+    padding: 20px;
+}
+
+.content-block-hr {
+
+}
+
+.top-content h3 {
+    display: inline-block;
+}
+
+.features ul {
+    list-style-type: none;
+}
+
+.features li::before {
+    content: "";
+    background: url(http://cdn2.hubspot.net/hubfs/53/assets/hubspot.com/partners/images/Orange_Checkmark.svg);
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+}
+
+.features li {
+    display: inline-block;
 }
