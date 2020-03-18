@@ -4,29 +4,26 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Sen', sans-serif;
+}
+
 header {
     height: 200px;
+    color: #374a5f;
 }
 
-.header-top {
+a {
+    text-decoration: none;
+    color: #374a5f;
+}
+
+#header-top {
     background-color: #f5f8fa;
+}
+
+#header-bottom {
     height: 100px;
-    border-bottom: 1px solid #cbd6e2;
-}
-
-.header-bottom {
-    background-color: white;
-    height: 100px;
-}
-
-#header-top-left {
-    width: 50%;
-    float: left;
-}
-
-#header-top-right {
-    width: 50%;
-    float: left;
 }
 
 .container {
@@ -34,114 +31,52 @@ header {
     margin: auto;
 }
 
-.clearfix::after {
-    content: "";
-    display: table;
-    clear: both;
+.top-right {
+    width: 50%;
+    float: left;
+    text-align: right;
+    padding: 30px 0;
 }
 
-#text-header-top {
-
+.top-left {
+    width: 50%;
+    float: left;
+    padding: 30px 0;
 }
 
-#language {
+.top-left a:first-child {
     border-right: 2px solid #cbd6e2;
-    display: inline-block;
 }
 
-#contact-sales {
-    display: inline-block;
+.top-nav-menu {
+    margin: 0 7px;
 }
 
-#login {
-    background-color: white;
+.btn {
     border: 1px solid #ff7a59;
+    padding: 15px;
+}
+
+.btn-white {
+    background: white;
     color: #ff7a59;
-    text-decoration: none;
 }
 
-.cta-primary {
-    background-color: #ff7a59;
-    border: 1px solid #ff7a59;
+.btn-white:hover {
+    background: #fff1ee
+}
+
+.btn-orange {
+    background: #ff7a59;
     color: white;
-    text-decoration: none;
 }
 
-.cta-large {
-    min-width: 7.277rem;
-    padding: 1.411em 2em 1.211em;
-    display: inline-block;
+.btn-orange:hover {
+    background-color: #ffbcac;
 }
 
-a {
-    text-decoration: none;
-    color: #33475b;
-}
-
-#logo {
-    float: left;
-    width: 30%
-}
-
-.menu-container {
-    float: left;
-    width: 70%;
-}
-
-#main-menu {
-    list-style-type: none;
-}
-
-#main-menu li {
-    display: inline-block;
-    padding: 0 10px;
-}
-
-.wrapper {
-    width: 100%;
-    background-image: linear-gradient(to top right, #fef8f0, #fff3ee, #fff1ee);
-    border-bottom: 3px solid #33475b;
-}
-
-.content-wrapper {
-    width: 400px;
-}
-
-.home-container {
-    width: 30%;
-    height: 200px;
-    background-color: yellow;
-    float: left;
-}
-
-.block-hr {
-    width: 70%;
-    height: 200px;
-    background-color: red;
-    float: left;
-    padding: 20px;
-}
-
-.content-block-hr {
-
-}
-
-.top-content h3 {
-    display: inline-block;
-}
-
-.features ul {
-    list-style-type: none;
-}
-
-.features li::before {
+.container::after {
+    display: table;
     content: "";
-    background: url(http://cdn2.hubspot.net/hubfs/53/assets/hubspot.com/partners/images/Orange_Checkmark.svg);
-    display: inline-block;
-    width: 18px;
-    height: 18px;
-}
-
-.features li {
-    display: inline-block;
+    clear: both;
 }
