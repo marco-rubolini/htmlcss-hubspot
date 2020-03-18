@@ -9,12 +9,13 @@ header {
 }
 
 .header-top {
-    background-color: yellow;
+    background-color: #f5f8fa;
     height: 100px;
+    border-bottom: 1px solid #cbd6e2;
 }
 
 .header-bottom {
-    background-color: blue;
+    background-color: white;
     height: 100px;
 }
 
@@ -31,11 +32,61 @@ header {
 .container {
     width: 1080px;
     margin: auto;
-    background-color: black;
 }
 
 .clearfix::after {
     content: "";
     display: table;
     clear: both;
+}
+
+#text-header-top {
+
+}
+
+#language {
+    border-right: 2px solid #cbd6e2;
+    display: inline-block;
+}
+
+#contact-sales {
+    display: inline-block;
+}
+
+#login {
+    background-color: white;
+    border: 1px solid #ff7a59;
+    color: #ff7a59;
+    text-decoration: none;
+}
+
+.cta-primary {
+    background-color: #ff7a59;
+    border: 1px solid #ff7a59;
+    color: white;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: #33475b;
+}
+
+#logo {
+    float: left;
+    width: 30%
+}
+
+.menu-container {
+    float: left;
+    width: 70%;
+}
+
+#main-menu {
+    list-style-type: none;
+}
+
+#main-menu li {
+    display: inline-block;
+    padding: 0 10px;
 }
