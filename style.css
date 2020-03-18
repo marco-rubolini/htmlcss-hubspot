@@ -24,6 +24,8 @@ a {
 
 #header-bottom {
     height: 100px;
+    background-color: white;
+    padding: 30px 0;
 }
 
 .container {
@@ -79,4 +81,27 @@ a {
     display: table;
     content: "";
     clear: both;
+}
+
+#logo {
+    width: 30%;
+    float: left;
+}
+
+#nav-menu {
+    width: 70%;
+    float: left;
+    text-align: right;
+    padding-top: calc((34px - 24px)/2);
+    padding-bottom: calc((34px - 24px)/2);
+    font-size: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+    margin: 0 7px;
 }
