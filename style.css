@@ -118,6 +118,7 @@ ul {
 
 .content {
     width: 40%;
+    float: left;
 }
 
 h1 {
@@ -142,12 +143,12 @@ p {
 }
 
 .small-container {
-    width: 30%;
+    width: 34%;
     float: left;
 }
 
 .box-large {
-    width: 70%;
+    width: 66%;
     float: left;
     background-color: white;
     padding: 30px;
@@ -235,13 +236,14 @@ h3 {
 
 #wrapper {
     background-image: linear-gradient(45deg, #00a4bd, #00bda5);
-    height: 400px;
     color: white;
     text-align: center;
 }
 
 .content-wrapper {
-    height: 300px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    width: 100%;
 }
 
 .riquadro {
@@ -249,4 +251,50 @@ h3 {
     float: left;
     border-right: 1px solid #fff;
     border-bottom: 1px solid #fff;
+}
+
+.img-riquadro {
+    height: 40px;
+    margin-top: 10px;
+}
+
+.img-riquadro img {
+    height: 100%;
+}
+
+.title-riquadro {
+    margin-top: 10px;
+    display: block;
+    font-size: 3em;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+#wrapper h2 {
+    font-size: 35px;
+    padding: 100px 0;
+}
+
+.riquadro:nth-child(4n+0) {
+    border-right: 0;
+}
+
+#costumers {
+    background-color: #f5f8fa;
+    height: 300px;
+}
+
+.logo-customers {
+    width: 60%;
+    float: left;
+}
+
+.img-customers {
+    width: 25%;
+    float: left;
+}
+
+.img-customers img {
+    width: 100%;
+    padding: 10px;
 }
