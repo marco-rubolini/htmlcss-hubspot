@@ -117,8 +117,9 @@ ul {
 }
 
 .content {
-    width: 40%;
+    width: 30%;
     float: left;
+    margin-right: 10%;
 }
 
 h1 {
@@ -279,9 +280,9 @@ h3 {
     border-right: 0;
 }
 
-#costumers {
+#customers {
     background-color: #f5f8fa;
-    height: 300px;
+    padding: 50px 0;
 }
 
 .logo-customers {
@@ -303,4 +304,30 @@ h3 {
     top: 50%;
     transform: translateY(-50%);
     padding: 20px;
+}
+
+#customers h2 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.content p {
+}
+
+.content-growing {
+    width: 50%;
+    float: left;
+}
+
+.img-growing {
+    width: 50%;
+    margin: auto;
+}
+
+.img-growing img {
+    width: 100%;
+}
+
+#growing {
+    padding: 50px 0;
 }
