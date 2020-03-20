@@ -17,8 +17,12 @@ a {
     color: #374a5f;
 }
 
-a:hover, footer a:hover {
+a:hover {
     color: #7fd1de;
+}
+
+.top-left a:hover, #nav-menu a:hover {
+    color: #374a5f;
 }
 
 #header-top {
@@ -72,8 +76,9 @@ a:hover, footer a:hover {
     color: #ff7a59;
 }
 
-.btn-white:hover {
-    background: #fff1ee
+.btn-white:hover, .btn-orange:hover {
+    background: #fff1ee;
+    color: #ff7a59;
 }
 
 .btn-white-black {
@@ -82,9 +87,11 @@ a:hover, footer a:hover {
     padding: 15px;
 }
 
-.btn-white-black a {
-    color: black;
+.btn-white-black a, .btn-white-black:hover {
+    color: #33475b;
 }
+
+
 
 header a {
     color: #374a5f;
@@ -192,6 +199,10 @@ h3 {
     display: inline-block;
 }
 
+.item {
+    margin-bottom: 10px;
+}
+
 .item::before {
     content: "\f058";
     font-weight: 800;
@@ -258,13 +269,12 @@ h3 {
 
 .barra-box {
     border-bottom: 3px solid rgba(153,172,194,0.2);
-    margin-top: 10px;
-    margin-bottom: 10px;
+    padding-top: 10px;
 }
 
 .popular {
     text-transform: uppercase;
-    margin: 10px 0;
+    margin: 20px 0;
     display: block;
 }
 
@@ -384,9 +394,6 @@ a {
 
 
 
-.link-list-footer a:hover {
-    color: #7fd1de;
-}
 
 .title-list {
     color: #FFF;
@@ -432,10 +439,6 @@ a {
     margin: 0 25px;
 }
 
-.language-nav a {
-    color: #cbd6e2;
-}
-
 #nav-menu-footer {
     width: 70%;
     float: left;
@@ -443,10 +446,6 @@ a {
     padding-top: calc((34px - 24px)/2);
     padding-bottom: calc((34px - 24px)/2);
     font-size: 20px;
-}
-
-#nav-menu-footer a {
-    color: #cbd6e2;
 }
 
 .bottom-menu {
