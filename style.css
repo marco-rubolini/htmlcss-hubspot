@@ -544,3 +544,16 @@ a {
     box-shadow: 0 2px 10px rgba(0,0,0,.2), 0 4px 28px rgba(0,0,0,.3);
     cursor: pointer;
 }
+
+.white:not(a) {
+    color: white;
+}
+
+#special-link:hover {
+    color: #cbd6e2;
+}
+
+li a {
+    display: inline-block;
+    width: 100%;
+}
