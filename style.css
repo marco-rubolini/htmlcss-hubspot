@@ -177,7 +177,7 @@ ul {
     float: left;
 }
 
-#first {
+#static-slider {
     background-image: url("img/background.png");
     border-bottom: 3px solid #33475b;
     padding: 60px 0;
@@ -185,7 +185,7 @@ ul {
     background-position: center;
 }
 
-#second {
+#services {
     padding: 40px 0;
     background-color: #f5f8fa;
 }
